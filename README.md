@@ -8,7 +8,7 @@ Sequence of values is kept as well as their order.
 Frame moves through curve and updates Tree and Queue structure.<br>
 DequeManager is defined to reserve maximum variation and corresponding extreme points.
 
-###How to Use:
+### How to Use:
 - create new cure by posting frames size to end-point: [http :8080/create]
 it returns {index} of curve that should be used later for adding values to curve
 and getting details of curve.
@@ -26,7 +26,7 @@ it returns the largest variation
 
 The aim of this part is to find count of array numbers starting from 1
  without using extra memory
-###how to use:
+### how to use:
 - post array of numbers(greater than zero) to [http :8080/repeated-numbers]
 it returns count of each number in place of index
 
